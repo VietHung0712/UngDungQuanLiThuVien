@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ứng dụng quản lý thư viện", "Ứng dụng quản lý thư viện\Ứng dụng quản lý thư viện.csproj", "{07C7D38F-E73F-43F0-831B-804CD0E7C9F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB4EC7B1-A028-4A9F-B03C-8EF9D329428A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C7D38F-E73F-43F0-831B-804CD0E7C9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C7D38F-E73F-43F0-831B-804CD0E7C9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C7D38F-E73F-43F0-831B-804CD0E7C9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C7D38F-E73F-43F0-831B-804CD0E7C9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {546FF45C-4278-4625-9DE1-4137EE4E77D6}
+	EndGlobalSection
+EndGlobal
