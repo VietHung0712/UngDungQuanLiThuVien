@@ -126,7 +126,7 @@ namespace Ứng_dụng_quản_lý_thư_viện
         private Double doanhthutrong1thang(int i)
         {
             double S = 0;
-            string sql = "select sum(loinhuan) as Sloinhuan from HoaDon where month(thoigian) = '" + i + "'";
+            string sql = "SELECT SUM(loinhuan) AS Sloinhuan FROM HoaDon WHERE MONTH(thoigian) = " + i + " AND YEAR(thoigian) = YEAR(GETDATE())";
             try
             {
                 DataTable result = provider.Executequery(sql);
