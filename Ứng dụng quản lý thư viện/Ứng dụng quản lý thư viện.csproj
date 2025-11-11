@@ -52,71 +52,70 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BCTK.cs">
+    <Compile Include="Views\BCTK.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BCTK.Designer.cs">
+    <Compile Include="Views\BCTK.Designer.cs">
       <DependentUpon>BCTK.cs</DependentUpon>
     </Compile>
-    <Compile Include="CapNhatSach.cs">
+    <Compile Include="Views\CapNhatSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CapNhatSach.Designer.cs">
+    <Compile Include="Views\CapNhatSach.Designer.cs">
       <DependentUpon>CapNhatSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="DangNhap.cs">
+    <Compile Include="Views\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DangNhap.Designer.cs">
+    <Compile Include="Views\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocGia.cs">
+    <Compile Include="Views\DocGia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocGia.Designer.cs">
+    <Compile Include="Views\DocGia.Designer.cs">
       <DependentUpon>DocGia.cs</DependentUpon>
     </Compile>
-    <Compile Include="DoiMatKhauQuanTri.cs">
+    <Compile Include="Views\DoiMatKhauQuanTri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DoiMatKhauQuanTri.Designer.cs">
+    <Compile Include="Views\DoiMatKhauQuanTri.Designer.cs">
       <DependentUpon>DoiMatKhauQuanTri.cs</DependentUpon>
     </Compile>
-    <Compile Include="LichSuDangNhap.cs">
+    <Compile Include="Views\LichSuDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LichSuDangNhap.Designer.cs">
+    <Compile Include="Views\LichSuDangNhap.Designer.cs">
       <DependentUpon>LichSuDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager.cs">
+    <Compile Include="Views\Manager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager.Designer.cs">
+    <Compile Include="Views\Manager.Designer.cs">
       <DependentUpon>Manager.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\SACH.cs" />
-    <Compile Include="MuonSach.cs">
+    <Compile Include="Views\MuonSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MuonSach.Designer.cs">
+    <Compile Include="Views\MuonSach.Designer.cs">
       <DependentUpon>MuonSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="MuonTra.cs">
+    <Compile Include="Views\MuonTra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MuonTra.Designer.cs">
+    <Compile Include="Views\MuonTra.Designer.cs">
       <DependentUpon>MuonTra.cs</DependentUpon>
     </Compile>
-    <Compile Include="NhanVien.cs">
+    <Compile Include="Views\NhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NhanVien.Designer.cs">
+    <Compile Include="Views\NhanVien.Designer.cs">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="PhanLoaiSach.cs">
+    <Compile Include="Views\PhanLoaiSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PhanLoaiSach.Designer.cs">
+    <Compile Include="Views\PhanLoaiSach.Designer.cs">
       <DependentUpon>PhanLoaiSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -126,80 +125,80 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="QuanLiSach.cs">
+    <Compile Include="Views\QuanLiSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLiSach.Designer.cs">
+    <Compile Include="Views\QuanLiSach.Designer.cs">
       <DependentUpon>QuanLiSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quanlitaikhoan.cs">
+    <Compile Include="Views\Quanlitaikhoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Quanlitaikhoan.Designer.cs">
+    <Compile Include="Views\Quanlitaikhoan.Designer.cs">
       <DependentUpon>Quanlitaikhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="Source_Data\DataProvider.cs" />
-    <Compile Include="Taikhoan.cs">
+    <Compile Include="Views\Taikhoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Taikhoan.Designer.cs">
+    <Compile Include="Views\Taikhoan.Designer.cs">
       <DependentUpon>Taikhoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="TheThuVien.cs">
+    <Compile Include="Views\TheThuVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TheThuVien.Designer.cs">
+    <Compile Include="Views\TheThuVien.Designer.cs">
       <DependentUpon>TheThuVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="TimKiemSach.cs">
+    <Compile Include="Views\TimKiemSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TimKiemSach.Designer.cs">
+    <Compile Include="Views\TimKiemSach.Designer.cs">
       <DependentUpon>TimKiemSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="TrangChu.cs">
+    <Compile Include="Views\TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TrangChu.Designer.cs">
+    <Compile Include="Views\TrangChu.Designer.cs">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="XuatDuLieu.cs">
+    <Compile Include="Views\XuatDuLieu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XuatDuLieu.Designer.cs">
+    <Compile Include="Views\XuatDuLieu.Designer.cs">
       <DependentUpon>XuatDuLieu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BCTK.resx">
+    <EmbeddedResource Include="Views\BCTK.resx">
       <DependentUpon>BCTK.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CapNhatSach.resx">
+    <EmbeddedResource Include="Views\CapNhatSach.resx">
       <DependentUpon>CapNhatSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DangNhap.resx">
+    <EmbeddedResource Include="Views\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocGia.resx">
+    <EmbeddedResource Include="Views\DocGia.resx">
       <DependentUpon>DocGia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DoiMatKhauQuanTri.resx">
+    <EmbeddedResource Include="Views\DoiMatKhauQuanTri.resx">
       <DependentUpon>DoiMatKhauQuanTri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LichSuDangNhap.resx">
+    <EmbeddedResource Include="Views\LichSuDangNhap.resx">
       <DependentUpon>LichSuDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager.resx">
+    <EmbeddedResource Include="Views\Manager.resx">
       <DependentUpon>Manager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MuonSach.resx">
+    <EmbeddedResource Include="Views\MuonSach.resx">
       <DependentUpon>MuonSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MuonTra.resx">
+    <EmbeddedResource Include="Views\MuonTra.resx">
       <DependentUpon>MuonTra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NhanVien.resx">
+    <EmbeddedResource Include="Views\NhanVien.resx">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PhanLoaiSach.resx">
+    <EmbeddedResource Include="Views\PhanLoaiSach.resx">
       <DependentUpon>PhanLoaiSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -207,25 +206,25 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLiSach.resx">
+    <EmbeddedResource Include="Views\QuanLiSach.resx">
       <DependentUpon>QuanLiSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Quanlitaikhoan.resx">
+    <EmbeddedResource Include="Views\Quanlitaikhoan.resx">
       <DependentUpon>Quanlitaikhoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Taikhoan.resx">
+    <EmbeddedResource Include="Views\Taikhoan.resx">
       <DependentUpon>Taikhoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TheThuVien.resx">
+    <EmbeddedResource Include="Views\TheThuVien.resx">
       <DependentUpon>TheThuVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TimKiemSach.resx">
+    <EmbeddedResource Include="Views\TimKiemSach.resx">
       <DependentUpon>TimKiemSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TrangChu.resx">
+    <EmbeddedResource Include="Views\TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XuatDuLieu.resx">
+    <EmbeddedResource Include="Views\XuatDuLieu.resx">
       <DependentUpon>XuatDuLieu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="..\.editorconfig">
