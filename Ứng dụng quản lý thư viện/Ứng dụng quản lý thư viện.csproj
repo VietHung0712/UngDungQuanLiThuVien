@@ -94,6 +94,7 @@
     <Compile Include="Manager.Designer.cs">
       <DependentUpon>Manager.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\SACH.cs" />
     <Compile Include="MuonSach.cs">
       <SubType>Form</SubType>
     </Compile>

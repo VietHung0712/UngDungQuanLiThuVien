@@ -15,7 +15,7 @@ namespace Ứng_dụng_quản_lý_thư_viện.Source_Data
 {
     public class DataProvider
     {
-        private string str = @"Data Source=LAPTOP-C2HEVKMU\SQLEXPRESS;Initial Catalog=bookstore_db;Integrated Security=True;";
+        private string str = @"Data Source=LAPTOP-TranViet\SQLEXPRESS;Initial Catalog=UndDungQuanLiThuVien;Integrated Security=True;";
 
         public DataTable Executequery(string query)
         {
